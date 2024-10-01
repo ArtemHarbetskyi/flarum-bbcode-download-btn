@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+.vagrant
+.idea
+vendor
+studio.json
+composer.lock

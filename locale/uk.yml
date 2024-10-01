@@ -1,0 +1,4 @@
+flarum-bbcode-download-btn:
+  admin:
+    permissions:
+      bypassGroupRequirement: Відображати BBcode кнопку завантаження в редакторі

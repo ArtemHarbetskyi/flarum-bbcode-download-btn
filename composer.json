@@ -1,0 +1,55 @@
+{
+    "name": "ArtemHarbetskyi/flarum-bbcode-download-btn",
+    "description": "Add Download button with filename and size to your Flarum posts.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "GPL-1.0-or-later",
+    "require": {
+        "flarum/core": ">=1.8.5"
+    },
+    "authors": [
+        {
+            "name": "ArtemHarbetskyi",
+            "email": "artem.kmcp@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ArtemHarbetskyi\\BBCodeDownloadButton\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Button Download",
+            "category": "",
+            "icon": {
+                "name": "fas fa-cloud-download-alt",
+                "color": "white",
+                "backgroundColor": "blue"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": false,
+                "forum": true,
+                "js": true,
+                "jsCommon": false,
+                "css": true,
+                "locale": false,
+                "gitConf": false,
+                "githubActions": false,
+                "prettier": true,
+                "typescript": false,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": false,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

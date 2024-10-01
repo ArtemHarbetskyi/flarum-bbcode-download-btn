@@ -1,0 +1,4 @@
+flarum-bbcode-download-btn:
+  admin:
+    permissions:
+      bypassGroupRequirement: Display the BBcode download button in the editor

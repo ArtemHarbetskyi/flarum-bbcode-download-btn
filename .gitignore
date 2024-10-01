@@ -5,3 +5,5 @@ Thumbs.db
 vendor
 studio.json
 composer.lock
+js/dist
+js/node_modules
